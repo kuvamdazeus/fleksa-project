@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-highlight {
+    @apply border-[3px] border-yellow-400 shadow-[-5px_-5px_0px_0px_rgba(250,204,21)];
+  }
+}
